@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { Link, Routes, Route } from 'react-router-dom'
 import Welcome from "./assets/components/Welcome.jsx";
@@ -13,6 +11,8 @@ function App() {
   return (
     <>
     <div>
+      <header>
+        <h1>Online Shop!</h1>
       <nav>
         {/*Navbar buttons */}
         <Link to="/">Home (placeholder)</Link> |{" "}
@@ -20,6 +20,7 @@ function App() {
         <Link to="/login">Einloggen</Link> |{" "}
         <Link to="/products">Produkte</Link>
       </nav>
+      </header>
 
       {/*Navbar routes */}
       <Routes>
