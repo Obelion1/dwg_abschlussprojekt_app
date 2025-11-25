@@ -1,0 +1,35 @@
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.welcome-card {
+    text-align: center;
+    max-width: 600px;
+    padding: 40px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.welcome-card h1 {
+    color: #2c5f2d;
+    margin-bottom: 20px;
+}
+
+.welcome-info {
+    margin: 30px 0;
+    font-size: 1.1em;
+}
+
+.welcome-info p {
+    margin: 10px 0;
+}
+
+.login-prompt {
+    margin-top: 30px;
+    font-weight: 600;
+    color: #555;
+}

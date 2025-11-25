@@ -8,11 +8,12 @@ import Products from "./assets/components/Products.jsx";
 
 function App() {
 
+  
   return (
     <>
     <div>
       <header>
-        <h1>Online Shop!</h1>
+        <h3>Online Shop!</h3>
       <nav>
         {/*Navbar buttons */}
         <Link to="/">Home (placeholder)</Link> |{" "}
