@@ -13,13 +13,13 @@ function App() {
     <>
     <div>
       <header>
-        <h3>Online Shop!</h3>
+        <h3>Online Supermarkt</h3>
       <nav>
         {/*Navbar buttons */}
-        <Link to="/">Home (placeholder)</Link> |{" "}
-        <Link to="/cart">Einkaufswagen</Link> |{" "}
+        <Link to="/">Start</Link> |{" "}
         <Link to="/login">Einloggen</Link> |{" "}
-        <Link to="/products">Produkte</Link>
+        <Link to="/products">Produkte</Link> |{" "}
+        <Link to="/cart">Einkaufswagen</Link>
       </nav>
       </header>
 
