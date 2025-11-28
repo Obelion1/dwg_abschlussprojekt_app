@@ -101,7 +101,7 @@ function Products() {
             <img src={selectedProduct.image_url} alt={selectedProduct.name} />
             <h2>{selectedProduct.name}</h2>
             <p className="price">{selectedProduct.price}€</p>
-            <p>{selectedProduct.description}</p>
+            <p>{selectedProduct.full_description}</p>
             <button onClick={() => {
               addToCart(selectedProduct);
               setSelectedProduct(null); // Close modal after adding
